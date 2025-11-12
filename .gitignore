@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Data & Exports (keep structure, ignore content)
+data/*.bbl
+data/*.csv
+data/*.log
+exports/*.html
+exports/*.png
+exports/*.pdf
+exports/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
